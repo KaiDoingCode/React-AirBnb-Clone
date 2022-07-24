@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.25",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "ckey": "^1.0.3",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^7.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "query-string": "^7.1.1",
+    "stripe": "^8.219.0"
+  },
+  "scripts": {
+    "start": "nodemon -r esm server.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
